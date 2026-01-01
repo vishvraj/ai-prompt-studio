@@ -1,0 +1,68 @@
+.model-selector {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.model-selector label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+  color: #374151;
+  font-size: 16px;
+}
+
+.model-selector select {
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #374151;
+  border: 2px solid #e5e7eb;
+  font-size: 16px;
+  width: auto;
+  min-width: 150px;
+  max-width: 100%;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
+}
+
+.model-selector select:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+  background: rgba(255, 255, 255, 1);
+}
+
+.model-desc {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+.model-desc a {
+  color: #6366f1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.model-desc a:hover {
+  text-decoration: underline;
+}
+
+.model-info {
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  width: fit-content;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.model-info p {
+  margin: 6px 0;
+  color: #374151;
+}

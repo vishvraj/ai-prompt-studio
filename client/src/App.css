@@ -1,0 +1,94 @@
+.app-container {
+  padding: 10px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 8px;
+}
+
+.logo {
+  height: 180px;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.2));
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  padding: 0 10px;
+}
+
+.left-panel {
+  flex: 1;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  position: relative;
+}
+
+.scrollable-area {
+  overflow-y: auto;
+  flex: 1;
+  padding-right: 8px;
+  margin-right: -8px;
+}
+
+.loading-text {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.error-text {
+  color: red;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.right-panel {
+  flex: 1;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 5px;
+  }
+
+  .logo {
+    height: 120px;
+  }
+
+  .main-content {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 5px;
+  }
+
+  .left-panel,
+  .right-panel {
+    padding: 15px;
+  }
+
+  .logo-container {
+    margin-bottom: 10px;
+  }
+}
