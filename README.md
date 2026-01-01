@@ -320,8 +320,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- Create an [issue](https://github.com/your-repo/issues) for bugs
-- Start a [discussion](https://github.com/your-repo/discussions) for questions
+- Create an [issue](https://github.com/vishvraj/ai-prompt-studio/issues) for bugs
+- Start a [discussion](https://github.com/vishvraj/ai-prompt-studio/discussions) for questions
 - Check the [architecture docs](./docs/architecture.md) for technical details
 
 ---
